@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AB bank</title>
+</head>
+<body bgcolor=" #c8f5e7 ">
+	<form>
+		<table border="0" width="100%">
+			<tr>
+				<td width="100%">
+					<table border="0" width="100%">
+						<tr>		
+							<td width="40%"><img src="img/bank.jpg" width="200px"></td>
+							<td width="60%"><font size="7px"><center>Bank Account Details</center> </font></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" bgcolor=" #f5533c "><p><marquee><font size="5px" color="white">Please fill up the form</font></marquee></p></td>
+			</tr>
+
+			<tr>
+				<td width="100%">
+					<table border="0" width="100%">
+						<tr>
+							<td colspan="3" width="40px"> <center><font size="7px">Personal information</font></center></td>
+							<tr>
+							<td width="40%"><label><b><i>Name:</i></b></label></td>
+							<td>
+								<input type="text" placeholder="Enter your name" width="60%" maxlength="12" value="">
+							</td>
+						</tr>
+						<tr>
+							<td width="40%"><label><b><i>Father's Name:</i></b></label></td>
+							<td>
+								<input type="text" name="" placeholder="Enter your Father's name" width="60%">
+							</td>
+						</tr>
+						<tr>
+							<td width="40%"><label><b><i>Mother's Name:</i></b></label></td>
+							<td>
+								<input type="text" placeholder="Enter your Mother's name" name="" width="60%">
+							</td>
+						</tr>
+						<tr>
+							<td width="40%"><label><b><i>Date of birth:</i></b></label></td>
+							<td>
+								<input type="date" name="" placeholder="Enter your date of birth" width="100%">
+							</td>
+						</tr>
+						<tr>
+							<td><label><b><i>Add Documents:</i></b></label></td>
+							<td>
+								<input type="file" name="" multiple>
+							</td>
+						</tr>
+						<tr>
+							<td><label><i><b>Facebook ID:</b></i></label></td>
+							<td>
+								<input type="url" name="" placeholder="Enter your facebook id">
+							</td>
+						</tr>
+						<tr>
+							<td width="40%"><label><b><i>Gender:</i></b></label></td>
+								<td><input type="radio" name="gender">Male
+									<input type="radio" name="gender">Female
+									<input type="radio" name="gender">other
+							</td>
+						</tr>
+						<tr>
+							<td><b><i>Address:</i></b></td>
+							<td><input type="text" name="" placeholder="write your address"></td>
+						</tr>
+						<tr>
+							<td width=40%><label><b><i>Hobby:</i></b></label>
+								<td><input type="checkbox" name="">Gardening
+									<input type="checkbox" name="">Reading book<br>
+									<input type="checkbox" name="">Traveling
+									<input type="checkbox" name="">Using Mobile<br>
+								</td>
+						<tr>
+							<td width="40%"><label><b><i>Favourite color:</i></b></label></td>
+							<td><input type="color" name=""></td>
+						</tr>
+						<tr>
+							<td width="40%>"><label><b><i>phone number:</i></b></label></td>
+							<td><input type="tel" name="" placeholder="Enter your phone number"></td>
+						</tr>
+						<tr>
+							<td width="40%"><label><b><i>Email address:</i></b></label></td>
+							<td>
+								<input type="email" name="" placeholder="Enter your email address" width="60%">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label><b><i>Write something about you:</i></b></label>
+							</td>
+							<td>
+									<textarea name="massage" rows="5" cols="25" placeholder="Write something about you" maxlength="200" minlength="150"></textarea>
+								</td>
+							</tr>
+							<td colspan="2" width="40px"> <center><font size="7px">Account information</font></center></td>
+						</tr>
+						<tr>
+							<td width="40%"><label><b><i>Account Number:</i></b></label></td>
+							<td>
+								<input type="Number" name="" placeholder="Enter your account number" min="1000" max="1500" width="60%">
+							</td>
+						</tr>
+						<tr>
+							<td width="40%"><label><b><i>Account Password:</i></b></label></td>
+							<td>
+								<input type="password" name="" placeholder="Enter your password" width="100%" minlength="8">
+							</td>
+						</tr>
+						
+						<tr>
+							<td width="40%"><label><b><i>Account Type:</i></b></label></td>
+							<td>
+								<select>
+									<option>Current Account</option>
+									<option selected>Savings Account</option>
+									<option>Recurring Deposit Account</option>
+									<option>Fixed Deposit Account</option>
+									<option disabled>NRI Account</option>
+								</select>
+							</td>
+							<tr>
+								<td width="40%"><label><b><i>Account status:</i></b></label></td>
+								<td>
+								<input type="radio" name="status" value="active" id="active">
+								<label for="active">active</label>
+								<input type="radio" name="status" value="deactive" id="deactive">
+								<label for="deactive">deactive</label>
+								</td>
+							</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" width="40%">
+					<p align="center"><input type="reset" name="" value="Reset form"><input type="submit" name="" value="Register">
+						<input type="image" src="img/submit.gif" name="" width="150" height="100"></p>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<hr>
+	<br><br><br><br><hr>
+	<form>
+
+		<fieldset>
+			<legend>More information</legend>
+			<label>First name</label>
+			<input type="text"><br>
+			0
+			<input type="range" name="">
+			100<br>
+			<label>Points</label>
+			<input type="Number" name="" step="5"><br>
+			<label>Select city:</label>
+			<select>
+				<optgroup label="Bangladesh">
+					<option>Dhaka</option>
+					<option>chattogram</option>
+				</optgroup>
+				<optgroup label="India">
+					<option>New Delhi</option>
+					<option>Mumbai</option>
+				</optgroup>
+			</select><br>
+			<label>Local time:</label>
+			<input type="datetime-local" name=""><br>
+			<label>Month:</label>
+			<input type="month" name="" placeholder="month"><br>
+			<label>Week:</label>
+			<input type="week" name="" placeholder="week">
+			</fieldset>
+	</form>
+</body>
+</html>
